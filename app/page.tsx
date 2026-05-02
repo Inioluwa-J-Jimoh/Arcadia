@@ -1,14 +1,17 @@
+import Categories from "@/components/Categories";
 import FeaturedGames from "@/components/FeaturedGames";
 import Heros from "@/components/Heros";
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
+import Puzzles from "@/components/Puzzles";
 
 export default function Home() {
   return (
-    <div className="flex pb-6 flex-col bg-[#111] h-screen">
+    <div className="flex w-full pb-6 flex-col bg-[#111] min-h-screen">
       <Navbar />
-      <Heros/>
-      <FeaturedGames/>
+      <Heros />
+      <FeaturedGames />
+      <Categories/>
+      <Puzzles/>
     </div>
   );
 }

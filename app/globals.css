@@ -18,10 +18,15 @@
   src: url('/Piazzolla-VariableFont_opsz\,wght.ttf');
 }
 
+html {
+  overflow: hidden;
+}
+
 body{
   font-family: 'Inter';
   color: white;
   letter-spacing: -0.5px;
+  overflow: hidden;
 }
 h1 {
   font-family: 'Piazzolla';
