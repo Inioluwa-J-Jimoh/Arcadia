@@ -7,6 +7,9 @@ const FeaturedGamesCard = () => {
         <Image
         src='/images.jpg'
         alt = "Spell Rush"
+        width={400}
+        height={300}
+        className="w-full h-auto"
         />
         <div>Puzzle 4.8 reviews</div>
        <button>Play Now</button>
