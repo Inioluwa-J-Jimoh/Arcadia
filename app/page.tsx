@@ -2,11 +2,10 @@ import Categories from "@/components/Categories";
 import FeaturedGames from "@/components/FeaturedGames";
 import Heros from "@/components/Heros";
 import Navbar from "@/components/Navbar";
-import Puzzles from "@/components/Puzzles";
 
 export default function Home() {
   return (
-    <div className="flex w-full pb-6 flex-col bg-[#111] min-h-screen">
+    <div className="flex pb-6 flex-col bg-dark min-h-screen w-screen overflow-x-hidden pt-20">
       <Navbar />
       <Heros />
       <FeaturedGames />
